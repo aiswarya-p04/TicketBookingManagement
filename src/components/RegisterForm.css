@@ -1,0 +1,57 @@
+.RegisterForm{
+    background-color: white;
+    padding: 10px;
+    /* margin-top: 50px;
+    margin-left: 60vh;
+    margin-right: 60vh; */
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    box-shadow:0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: inherit ;
+    display: flex;
+    flex-direction: column;
+}
+.Submit-btn{
+    background-color: green;
+    width: 20%;
+    border-radius: 8px;
+    display: block;
+    padding: 5px;
+    margin: 15px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.Submit-btn:hover {
+    background: rgb(1, 61, 1);
+  }
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+label{
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.Submit-btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }

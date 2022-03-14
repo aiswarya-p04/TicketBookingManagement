@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    
+}
+/* .home{ */
+    /* background-image: url("../train.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width:100%; */
+    /* background-image: url("../train.jpg");
+    background-size: "cover";
+    height: 100vh;
+    margin: 0%;
+    width:100%; */
+    /* font-size:50px; */
+    /* background-repeat:no-repeat; */
+/* } */
+
+/* .home img {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+} */

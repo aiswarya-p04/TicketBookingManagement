@@ -1,0 +1,29 @@
+.Header-app{
+    background-color: aquamarine;
+    height: 40px;
+    padding: 5px;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    /* text-decoration: none; */
+    /* float: right; */
+    
+    
+}
+a{
+    text-decoration: none;
+    
+}
+
+li{
+    float:right;
+padding-right: 1%;
+
+
+ 
+    
+}

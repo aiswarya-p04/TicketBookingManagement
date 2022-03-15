@@ -3,6 +3,7 @@ import './Header.css'
 import LoginForm from './LoginForm'
 import RegisterForm from './RegisterForm'
 import Home from './Home'
+import { IoIosContact } from "react-icons/io";
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,15 +19,19 @@ const header = () => {
       <nav>
           <ul>
             <li>
-              <Link to="/">Aiswarya Ticket Booking</Link>
+              <Link to="/" >Home</Link>
             </li>
-            <li className='Right'>
+            <li>
               <Link to="/login">Login</Link>
             </li>
-            <li className='Right'>
+            <li>
               <Link to="/register">Register</Link>
             </li>
+            <li>
+              <Link to="/" ><IoIosContact size={30}/></Link>
+            </li>
           </ul>
+          
         </nav>
         <Routes>
           <Route path="/login" element={<LoginForm/>}/>

@@ -6,11 +6,13 @@
 }
 ul{
     list-style: none;
-    display: flex;
-    /* justify-content: space-between; */
+    display: inline-flex;
+    justify-content: space-around;
     /* width: 100%; */
     /* text-decoration: none; */
-    /* float: right; */
+    float: right;
+    width: 20%;
+    
     
     
 }
@@ -20,10 +22,16 @@ a{
 }
 
 li{
-    float:right;
+    /* float:right; */
 padding-right: 1%;
 
 
  
     
 }
+
+/* .icon{
+    float: right;
+    width: 30px;
+    height: 22px;
+} */
